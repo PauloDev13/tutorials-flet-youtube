@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ccda65e-a98a-4113-b39f-ee8aba7f874a" name="Changes" comment="Implementing animate">
-      <change afterPath="$PROJECT_DIR$/auth/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/oauth_provider.py" afterDir="false" />
+    <list default="true" id="4ccda65e-a98a-4113-b39f-ee8aba7f874a" name="Changes" comment="Implementing authentication example">
+      <change afterPath="$PROJECT_DIR$/pubsub/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pubsub/ex_chat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/tutorials-flet-youtube.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tutorials-flet-youtube.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,9 +31,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2mq3LtAbv2MXps3O7UIRBI69ZMQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -41,13 +43,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "AnimatedSwitcher",
+    "git-widget-placeholder": "OAuthGithub",
+    "last_opened_file_path": "C:/Desenvolvimento/_PROJETOS_PYTHON/tutorials-flet-youtube/.venv/Scripts/python.exe",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.updates",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -68,6 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1727790227467</updated>
       <workItem from="1727790238481" duration="6478000" />
+      <workItem from="1727877883781" duration="9219000" />
     </task>
     <task id="LOCAL-00001" summary="Creating project">
       <option name="closed" value="true" />
@@ -93,7 +97,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727796823881</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Implementing authentication example">
+      <option name="closed" value="true" />
+      <created>1727886017831</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1727886017831</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +125,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creating project" />
     <MESSAGE value="Implementing animate" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementing animate" />
+    <MESSAGE value="Implementing authentication example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementing authentication example" />
   </component>
 </project>
